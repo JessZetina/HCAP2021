@@ -11,5 +11,6 @@ IGS=cv2.cvtColor(IRGB,cv2.COLOR_BGR2GRAY)
 print(IGS)
 print(IGS.shape)
 
+cv2.imwrite("002GS.jpg",IGS)
 
 
